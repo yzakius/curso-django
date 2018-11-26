@@ -10,6 +10,7 @@ flake8 = "*"
 django = "*"
 gunicorn = "*"
 pytest-django = "*"
+python-decouple = "*"
 
 [requires]
 python_version = "3.7"
