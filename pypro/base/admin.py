@@ -45,7 +45,7 @@ class UserAdmin(admin.ModelAdmin):
     list_display = ('email', 'first_name', 'is_staff')
     list_filter = ('is_staff', 'is_superuser', 'is_active', 'groups')
     search_fields = ('first_name', 'email')
-    ordering = ('email',)
+    ordering = ('first_name',)
     filter_horizontal = ('groups', 'user_permissions',)
 
     def get_fieldsets(self, request, obj=None):
