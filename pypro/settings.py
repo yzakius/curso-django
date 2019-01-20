@@ -182,4 +182,4 @@ if AWS_ACCESS_KEY_ID:
 SENTRY_DSN = config('SENTRY_DSN', default=None)
 
 if SENTRY_DSN:
-    sentry_sdk.init(SENTRY_DSN, integrations=[DjangoIntegration()])
+    sentry_sdk.init(dsn=SENTRY_DSN, integrations=[DjangoIntegration()])
