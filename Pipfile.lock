@@ -345,11 +345,8 @@
             "version": "==2.1.1"
         },
         "pytest": {
-            "hashes": [
-                "sha256:067a1d4bf827ffdd56ad21bd46674703fce77c5957f6c1eef731f6146bfcef1c",
-                "sha256:9687049d53695ad45cf5fdc7bbd51f0c49f1ea3ecfc4b7f3fde7501b541f17f4"
-            ],
-            "version": "==4.3.0"
+            "hashes": [],
+            "version": "==7.4.1"
         },
         "pytest-cov": {
             "hashes": [
